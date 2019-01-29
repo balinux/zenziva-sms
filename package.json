@@ -1,0 +1,26 @@
+{
+  "name": "zenviva-sms",
+  "version": "1.0.0",
+  "description": "zenviva sms gateway",
+  "main": "index.js",
+  "scripts": {
+    "test": "node index.js"
+  },
+  "keywords": [
+    "sms",
+    "gateway"
+  ],
+  "author": "balinux",
+  "license": "ISC",
+  "dependencies": {
+    "axios": "^0.18.0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git@github.com:balinux/zenviva-sms.git"
+  },
+  "bugs": {
+    "url": "https://github.com/balinux/zenviva-sms.git"
+  },
+  "homepage": "https://github.com/balinux/zenviva-sms#readme"
+}
