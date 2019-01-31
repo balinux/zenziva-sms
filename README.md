@@ -22,7 +22,15 @@ npm i -S zenviva-sms
 const zenviva = require('zenviva-sms');
 const sms = new zenviva('userkey', 'passkey')
 
-sms.send(PhoneNumber, Message)
+sms.reguler(PhoneNumber, Message)
+    .then(Response => {
+         console.log(Response.data);
+    })
+    .catch(error => {
+         console.log(error);
+    })
+
+sms.masking(PhoneNumber, Message)
     .then(Response => {
          console.log(Response.data);
     })
