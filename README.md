@@ -14,13 +14,13 @@
 Run [npm](https://nodejs.org/en)
 
 ```bash
-npm i -S zenviva-sms
+npm i -S zenziva-sms
 ```
 
 ## Usage
 ```
-const zenviva = require('zenviva-sms');
-const sms = new zenviva('userkey', 'passkey')
+const zenziva = require('zenziva-sms');
+const sms = new zenziva('userkey', 'passkey')
 
 sms.reguler(PhoneNumber, Message)
     .then(Response => {
