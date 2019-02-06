@@ -1,4 +1,4 @@
-const zenviva = require('./src/zenviva');
+const zenziva = require('./src/zenziva');
 
-module.exports = zenviva;
+module.exports = zenziva;
 
